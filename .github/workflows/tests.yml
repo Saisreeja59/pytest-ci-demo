@@ -45,7 +45,8 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: '10 18 * * *'
+    schedule:
+    - cron: '45 12 * * *'
   workflow_dispatch:
 
 jobs:
