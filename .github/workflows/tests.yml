@@ -34,18 +34,18 @@
 
 
 
-name: Python CI Tests
-
-on:
-  push:
-  pull_request:
 # name: Python CI Tests
 
 # on:
 #   push:
 #   pull_request:
-#   schedule:
-#     - cron: '45 12 * * *'
+name: Python CI Tests
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '45 12 * * *'
   workflow_dispatch:
 
 jobs:
